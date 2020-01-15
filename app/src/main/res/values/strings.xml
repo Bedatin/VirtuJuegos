@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">VirtuJuegos</string>
+    <string name="Jugar">Jugar</string>
+    <string name="Sumas">Sumas</string>
+    <string name="Memory">Memory</string>
+    <string name="Emparejar">Emparejar</string>
+    <string name="TresEenRaya">3 en Raya</string>
+
+    <string name="Busca_las_parejas">Busca las parejas</string>
+
+    <string name="Juego_users">1 vs 1</string>
+    <string name="Juego_maquina">1 vs móvil</string>
+
+    <string name="Nivel_Facil">Fácil</string>
+    <string name="Nivel_Medio">Media</string>
+    <string name="Nivel_Dificil">Difícil</string>
+
+    <string name="Turno_Lea">Turno de Lea</string>
+    <string name="Turno_Pop">Turno de Pop</string>
+    <string name="Gana_Lea">Gana Lea</string>
+    <string name="Gana_Pop">Gana Pop</string>
+    <string name="Empate">Empate</string>
+
+    <string name="Lea">Lea</string>
+    <string name="Pop">Pop</string>
+
+    <string name="Jugada">Jugada nº</string>
+
+
+    <string name="Entiendo">Entiendo</string>
+    <string name="MemoDescription">
+        En este juego tendrás que memorizar la secuencia de colores que pulsará Lea y repetirla después.\n\n
+        En la primera ronda sólo pulsará un color.\n
+        En la segunda pulsará el mismo color de la primera ronda y añadirá un segundo color que puede ser el mismo o distinto.\n
+        Por  cada ronda se irá añadiendo un nuevo color.\n\n
+        Si completas todas las rondas ganarás, pero si te equivocas en un color perderás la partida.\n\n
+        Pulsa el botón de "Restart", si quieres volver a empezar.\n
+    </string>
+    <string name="TeRDescription">
+        En este juego tendrás que unir 3 de tus fichas antes que tu rival.\n\n
+        Puedes unir tus fichas colocando 3 en la misma fila, 3 en la misma columna, o 3 en las diagonales.\n\n
+        Se elije aleatoriamente quien comienza la partida y desde ese momento os iréis alternando el turno.\n\n
+        Pulsa el botón de "Restart", si quieres volver a empezar.\n
+    </string>
+    <string name="EmparejaDescription">
+        En este juego tendrás que encontrar las fichas que forman una pareja.\n\n
+        Pulsa una ficha para darla la vuelta y después otra.\n\n
+        Si son iguales habrás acertado y se quedarán boca arriba, pero si son distintas se darán la vuelta.\n\n
+        Pulsa el botón de "Restart", si quieres volver a empezar.\n
+    </string>
+    <string name="VeoVeoDescription">
+        En este juego tendrás que encontrar el objeto de la imagen que corresponde a las letras.\n\n
+        La primera letra siempre está visible, el resto las tendras que poner en orden seleccionandolas de las posibles letras que hay abajo.\n\n
+        Si son iguales habrás acertado y se quedarán boca arriba, pero si son distintas se darán la vuelta.\n\n
+        Pulsa el botón de "Restart", si quieres volver a empezar.\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">2453145918283768</string>
+    <string name="fb_login_protocol_scheme">fb2453145918283768</string>
+
+</resources>

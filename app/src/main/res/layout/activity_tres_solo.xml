@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulFondo"
+    android:orientation="vertical"
+    tools:context=".juegos.TresSolo">
+
+
+    <RelativeLayout
+        android:id="@+id/RelArriba"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBackMaq"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_arrow_back_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/txtArriba"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnReplay"
+            android:layout_marginEnd="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_replay_white_24dp" />
+
+        <Button
+            android:id="@+id/btnInfoTres"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_info"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/cuadro"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroOscuro">
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroClaro">
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroOscuro">
+
+                <Button
+                    android:id="@+id/btn13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroClaro">
+
+                <Button
+                    android:id="@+id/btn21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroOscuro">
+
+                <Button
+                    android:id="@+id/btn22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroClaro">
+
+                <Button
+                    android:id="@+id/btn23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroOscuro">
+
+                <Button
+                    android:id="@+id/btn31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroClaro">
+
+                <Button
+                    android:id="@+id/btn32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorCuadroOscuro">
+
+                <Button
+                    android:id="@+id/btn33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="50sp"
+                    android:background="@color/colorTransparente"
+                    android:textColor="@color/colorTransparente"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAbajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnLea"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:checked="true"
+            android:text="@string/Lea"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/btnPop"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:text="@string/Pop"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnFacil"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:checked="true"
+            android:text="@string/Nivel_Facil"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/btnMedia"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:text="@string/Nivel_Medio"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/btnDificil"
+            style="@style/MyRadioButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:text="@string/Nivel_Dificil"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+</LinearLayout>

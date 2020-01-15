@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulFondo"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="200dp"
+            android:layout_marginStart="50dp"
+            android:text="@string/Jugar"
+            android:textColor="@color/Blanco"
+            android:textSize="18sp"
+            android:background="@drawable/btn_round_20"/>
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="500dp"
+            android:layout_marginStart="50dp"
+            android:text="Registro"
+            android:textColor="@color/Blanco"
+            android:textSize="18sp"
+            android:background="@drawable/btn_round_20"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

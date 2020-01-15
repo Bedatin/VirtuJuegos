@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:background="@color/azulFondo"
+    android:orientation="vertical"
+    tools:context=".Dialogo">
+
+    <ImageView
+        android:id="@+id/ivInfoMemo"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/azulFondo"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="300dp">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:layout_height="300dp"
+            android:background="@color/Blanco">
+
+
+            <TextView
+                android:id="@+id/tvInfoMemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:text=""
+                android:textColor="@color/azulFondo"
+                android:textSize="20sp" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/LinearSeek"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="300dp"
+            android:background="@color/colorBtnround">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:rotation="90"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bInfoMemo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/azulFondo"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:textColor="@color/Blanco"
+        android:text="@string/Entiendo" />
+</LinearLayout>

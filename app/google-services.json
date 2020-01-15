@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956396889331",
+    "firebase_url": "https://virtujuegos-8fff1.firebaseio.com",
+    "project_id": "virtujuegos-8fff1",
+    "storage_bucket": "virtujuegos-8fff1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956396889331:android:69124193404b5fbe228386",
+        "android_client_info": {
+          "package_name": "com.example.virtujuegos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956396889331-37k25l38d33h4prb3cpn7tbuf71csjjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virtujuegos",
+            "certificate_hash": "88a1d0a4386fa3632bd8cd08d7fb4916f0ab8ae6"
+          }
+        },
+        {
+          "client_id": "956396889331-nqbih8e11mdltdcp1ig5q98dacpq8jcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2mfR0CGUCXthrs0xYwmTPD8guvxs35fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956396889331-nqbih8e11mdltdcp1ig5q98dacpq8jcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

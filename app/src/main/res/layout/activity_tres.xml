@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulFondo"
+    android:orientation="vertical"
+    tools:context=".juegos.TresActivity">
+
+    <Button
+        android:id="@+id/btnBackTres"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnUsers"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:text="@string/Juego_users"
+            android:textColor="@color/Blanco"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMaquina"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_round_20"
+            android:text="@string/Juego_maquina"
+            android:textColor="@color/Blanco"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>
